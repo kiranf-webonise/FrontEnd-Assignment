@@ -1,3 +1,8 @@
+body{
+  font-family: Georgia;
+  font-size: 13px;
+  color: #222222;
+}
 .nav {
       height: 40px;
       background-color: #3355aa;
@@ -6,11 +11,12 @@
 }
 .header{
   height: 80px;
+  padding-top: 15px;
 }
-.row{
+/*.row{
   margin-bottom: 15px;
   margin-top: 35px;
-}
+}*/
 .col-md-3{
   text-align: center;
 }
@@ -18,39 +24,42 @@
   font-size: 16px;
   color: #3355aa;
   font-weight: bold;
-  font-family:"Times New Roman";
-  }
+  border-bottom: solid 3px orange;
+  padding-bottom: 15px;
 }
-.box{
-  color: #000000;
-  }
+.headingCard{
+  font-size: 16px;
+  color: #3355aa;
+  padding: 0 40px;
+  display: block;
+}
+
 .greybox{
   height: 250px;
-  font-size: 16px;
   background-color: #e0dbdb;
-  margin-top: 70px;
+  margin:5px 5px 5px 5px;
 }
 .middle{
   font-weight: bold;
   text-align: center;
-  font-family:"Times New Roman";
+  font-family:Georgia;
 }
 .footer{
-  background-color: #333333;
-  font-size: 14px;
-  margin-left: -30px;
+  background: #333333;
 }
 .nav-color{
   color: #ffffff;
   white-space:  15px;
-  border-left-width: -20px;
+  padding-right: 10px;
+  font-style: italic;
+
 
 }
 .border{
    border-bottom: 6px solid red;
 }
 .img-thumbnail{
-  padding: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
 }
 .thumbnail{
   margin-bottom: 45px;
@@ -64,6 +73,12 @@
 }
 .font-small{
   font-size: 10px;
+  border-bottom: solid 2px #ebebeb;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+.fontNormal{
+  font-style: italic;
 }
 .line{
   border: solid;
@@ -76,11 +91,95 @@ button {
     background: #3355aa;
     border: 2px solid;
 }
-.font-footer{
-  font-size: 11px;
-}
 .line-footer{
   border:solid;
   border-width: 1px;
   color: #3d3d3d;
+}
+
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+
+}
+
+li a:hover {
+    color: #ffffff;
+}
+a:hover {
+    color: none;
+}
+.horizontalNav{
+  float: left;
+  display: block;
+  color: white;
+  padding: 10px 5px;
+
+}
+.searchBar{
+  float: right;
+
+}
+.imageCard{
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+.spaceTop{
+  margin-top: 35px;
+}
+.imageSpace{
+  margin: 10px 10px 10px 10px;
+}
+.middleFont{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: solid 2px #ebebeb;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.backColor{
+  background-color: #EAE1D7;
+}
+.footerSpace{
+  padding-bottom: 75px;
+}
+.footerNav{
+  float: left;
+  display: block;
+  color: white;
+  padding: 15px 4px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.navFooter{
+  color: #7f7f82;
+}
+.navLeft{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size:14px;
+
+}
+.navRight{
+  padding-top: 15px;
+  float: right;
+  font-size: 11px;
+}
+.footerBorder{
+  border-top: solid 2px #3d3d3d;
+}
+.copyFont{
+  font-size: 11px;
+  padding-bottom: 35px;
+  padding-top: 15px;
+}
+.colorMore{
+  color: #3355aa;
+  font-style: italic;
 }
